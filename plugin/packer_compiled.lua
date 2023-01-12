@@ -89,6 +89,16 @@ _G.packer_plugins = {
     path = "/home/ale/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  ["haskell-tools.nvim"] = {
+    loaded = true,
+    path = "/home/ale/.local/share/nvim/site/pack/packer/start/haskell-tools.nvim",
+    url = "https://github.com/MrcJkb/haskell-tools.nvim"
+  },
+  ["linediff.vim"] = {
+    loaded = true,
+    path = "/home/ale/.local/share/nvim/site/pack/packer/start/linediff.vim",
+    url = "https://github.com/AndrewRadev/linediff.vim"
+  },
   ["lspkind.nvim"] = {
     loaded = true,
     path = "/home/ale/.local/share/nvim/site/pack/packer/start/lspkind.nvim",
@@ -118,6 +128,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/ale/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
+  },
+  playground = {
+    loaded = true,
+    path = "/home/ale/.local/share/nvim/site/pack/packer/start/playground",
+    url = "https://github.com/nvim-treesitter/playground"
   },
   ["plenary.nvim"] = {
     loaded = true,
