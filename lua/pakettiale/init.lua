@@ -16,6 +16,7 @@ return require('packer').startup(function(use)
     requires = { {'nvim-lua/plenary.nvim'} }
   }
   use 'nvim-treesitter/nvim-treesitter'
+  use 'nvim-treesitter/playground'
   use {
     'jose-elias-alvarez/null-ls.nvim',
     requires = { {'nvim-lua/plenary.nvim'} }
@@ -27,4 +28,16 @@ return require('packer').startup(function(use)
   use 'onsails/lspkind.nvim'
   use 'folke/which-key.nvim'
   use 'jose-elias-alvarez/typescript.nvim'
+
+  use {
+    'MrcJkb/haskell-tools.nvim',
+    requires = {
+      'neovim/nvim-lspconfig',
+      'nvim-lua/plenary.nvim',
+      'nvim-telescope/telescope.nvim', -- optional
+    },
+    tag = '1.2.0' -- latest as of 2022-11-13
+  }
+
+  use 'AndrewRadev/linediff.vim'
 end)
